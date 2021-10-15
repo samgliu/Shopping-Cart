@@ -1,4 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Home from './Home';
 import Products from './Products';
 import Contact from './Contact';
@@ -6,7 +7,7 @@ import { GlobalProvider } from '../context/GlobalState';
 
 const Routes = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Switch>
                 <GlobalProvider>
                     <Route exact path="/" component={Home} />
@@ -14,7 +15,7 @@ const Routes = () => {
                     <Route exact path="/contact" component={Contact} />
                 </GlobalProvider>
             </Switch>
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 

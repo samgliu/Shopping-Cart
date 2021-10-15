@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
 import Navbar from './Navbar';
 import Product from './Product';
@@ -6,7 +6,7 @@ import ProductsData from './ProductsData';
 import Cart from './Cart';
 
 const Shop = () => {
-    const [items, setItems] = useState(ProductsData);
+    //const [items, setItems] = useState(ProductsData);
     const { cart, amount, value, addItemToList, toggleCart } =
         useContext(GlobalContext);
     const onAddClick = (theid) => {
@@ -29,7 +29,7 @@ const Shop = () => {
             />
 
             <div className="productcontainer">
-                {items.map((item) => (
+                {ProductsData.map((item) => (
                     <Product
                         id={item.id}
                         img={item.src}

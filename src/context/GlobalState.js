@@ -76,7 +76,7 @@ export const GlobalProvider = ({ children }) => {
     };
 
     const [state, dispatch] = useReducer(AppReducer, initialState);
-
+    /*
     function calValue() {
         const calculateValue = () => {
             let newValue = parseFloat(value);
@@ -88,7 +88,7 @@ export const GlobalProvider = ({ children }) => {
         };
         setValue(calculateValue());
     }
-
+*/
     function toggleCart() {
         setIsCartOpen(!isCartOpen);
     }
