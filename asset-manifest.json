@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cd0e5d5.chunk.css",
-    "main.js": "/static/js/main.9c0c3ee2.chunk.js",
-    "main.js.map": "/static/js/main.9c0c3ee2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f623cfeb.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f623cfeb.js.map",
-    "static/js/2.eeb79795.chunk.js": "/static/js/2.eeb79795.chunk.js",
-    "static/js/2.eeb79795.chunk.js.map": "/static/js/2.eeb79795.chunk.js.map",
-    "static/js/3.372c415f.chunk.js": "/static/js/3.372c415f.chunk.js",
-    "static/js/3.372c415f.chunk.js.map": "/static/js/3.372c415f.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.1cd0e5d5.chunk.css.map": "/static/css/main.1cd0e5d5.chunk.css.map",
-    "static/js/2.eeb79795.chunk.js.LICENSE.txt": "/static/js/2.eeb79795.chunk.js.LICENSE.txt",
-    "static/media/08.6f3970d2.jpg": "/static/media/08.6f3970d2.jpg",
-    "static/media/home.614a9f63.jpg": "/static/media/home.614a9f63.jpg"
+    "main.css": "/Shopping-Cart/static/css/main.1cd0e5d5.chunk.css",
+    "main.js": "/Shopping-Cart/static/js/main.a4203dc2.chunk.js",
+    "main.js.map": "/Shopping-Cart/static/js/main.a4203dc2.chunk.js.map",
+    "runtime-main.js": "/Shopping-Cart/static/js/runtime-main.bcb70736.js",
+    "runtime-main.js.map": "/Shopping-Cart/static/js/runtime-main.bcb70736.js.map",
+    "static/js/2.d251b9c4.chunk.js": "/Shopping-Cart/static/js/2.d251b9c4.chunk.js",
+    "static/js/2.d251b9c4.chunk.js.map": "/Shopping-Cart/static/js/2.d251b9c4.chunk.js.map",
+    "static/js/3.372c415f.chunk.js": "/Shopping-Cart/static/js/3.372c415f.chunk.js",
+    "static/js/3.372c415f.chunk.js.map": "/Shopping-Cart/static/js/3.372c415f.chunk.js.map",
+    "index.html": "/Shopping-Cart/index.html",
+    "static/css/main.1cd0e5d5.chunk.css.map": "/Shopping-Cart/static/css/main.1cd0e5d5.chunk.css.map",
+    "static/js/2.d251b9c4.chunk.js.LICENSE.txt": "/Shopping-Cart/static/js/2.d251b9c4.chunk.js.LICENSE.txt",
+    "static/media/08.6f3970d2.jpg": "/Shopping-Cart/static/media/08.6f3970d2.jpg",
+    "static/media/home.614a9f63.jpg": "/Shopping-Cart/static/media/home.614a9f63.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f623cfeb.js",
-    "static/js/2.eeb79795.chunk.js",
+    "static/js/runtime-main.bcb70736.js",
+    "static/js/2.d251b9c4.chunk.js",
     "static/css/main.1cd0e5d5.chunk.css",
-    "static/js/main.9c0c3ee2.chunk.js"
+    "static/js/main.a4203dc2.chunk.js"
   ]
 }
