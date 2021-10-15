@@ -1,5 +1,4 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import Products from './Products';
 import Contact from './Contact';

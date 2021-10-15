@@ -7,8 +7,8 @@ function Home() {
         <div className="Home">
             <Navbar />
             <Cart />
-            <p>Choose you, </p>
-            <p>Choose your Style. </p>
+            <h2>Choose you, </h2>
+            <h2>Choose your Style. </h2>
             <img src={homeimage} alt="" width="70%"></img>
         </div>
     );

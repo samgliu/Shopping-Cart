@@ -7,7 +7,7 @@ function Contact() {
             <Navbar />
             <Cart />
             <h3>Contact Us</h3>
-            <div class="contact-form">
+            <div className="contact-form">
                 <input type="text" placeholder="Your Name" />
                 <br />
                 <input type="email" placeholder="Your email address" />
