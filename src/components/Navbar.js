@@ -9,7 +9,9 @@ const Navbar = () => {
     };
     return (
         <div className="Navbar">
-            <h1>Example Cloth Store</h1>
+            <h1>
+                <Link to="/">Example Cloth Store</Link>
+            </h1>
             <ul className="navcontainer">
                 <li>
                     <Link to="/">Home</Link>

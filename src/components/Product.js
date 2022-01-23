@@ -3,8 +3,10 @@ function Product(props) {
 
     function onClick(e) {
         e.preventDefault();
+
         onAddClick(id);
     }
+
     return (
         <div className="Product">
             {<img src={img} alt={name} width="100px" id={id}></img>}

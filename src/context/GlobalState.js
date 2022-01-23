@@ -4,13 +4,13 @@ import ProductsData from '../components/ProductsData';
 const initialState = [];
 
 export const GlobalContext = createContext(initialState);
-
 export const GlobalProvider = ({ children }) => {
     const [isCartOpen, setIsCartOpen] = useState(false);
     const [amount, setAmount] = useState(0);
     const [value, setValue] = useState(0);
 
-    const AppReducer = (state, action) => {
+    //const AppReducer = (state, action) =>
+    function AppReducer(state, action) {
         function addToCartId(theid) {
             let theitem = ProductsData[theid - 1];
             let newCart;
@@ -73,22 +73,10 @@ export const GlobalProvider = ({ children }) => {
             default:
                 return state;
         }
-    };
-
-    const [state, dispatch] = useReducer(AppReducer, initialState);
-    /*
-    function calValue() {
-        const calculateValue = () => {
-            let newValue = parseFloat(value);
-            state.forEach((item) => {
-                newValue = newValue + item.product.price * item.quantity;
-            });
-            let valuestr = newValue.toFixed(2);
-            return valuestr;
-        };
-        setValue(calculateValue());
     }
-*/
+
+    const [stat1e, dispatch] = useReducer(AppReducer, initialState);
+
     function toggleCart() {
         setIsCartOpen(!isCartOpen);
     }
@@ -110,7 +98,7 @@ export const GlobalProvider = ({ children }) => {
     useEffect(() => {
         const calculateValue = () => {
             let newValue = 0;
-            state.forEach((item) => {
+            stat1e.forEach((item) => {
                 newValue =
                     Math.round(
                         (newValue + item.product.price * item.quantity) * 100
@@ -120,12 +108,12 @@ export const GlobalProvider = ({ children }) => {
             return valuestr;
         };
         setValue(calculateValue());
-    }, [state]);
+    }, [stat1e]);
 
     return (
         <GlobalContext.Provider
             value={{
-                cart: state,
+                cart: stat1e,
                 addItemToList,
                 updateItemToList,
                 toggleCart,

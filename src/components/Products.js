@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import Product from './Product';
 import ProductsData from './ProductsData';
 import Cart from './Cart';
-
+import { useEffect } from 'react';
 const Shop = () => {
     //const [items, setItems] = useState(ProductsData);
     const { cart, amount, value, addItemToList, toggleCart } =
@@ -16,6 +16,20 @@ const Shop = () => {
     const addToCartId = (theid) => {
         addItemToList(theid);
     };
+
+    async function bac() {
+        //console.log('inbac');
+        return 'bac';
+    }
+    const abc = async () => {
+        //console.log('in bac 1');
+        await bac();
+        //console.log('in bac 2');
+        return 'abc';
+    };
+    const test = abc();
+    const test2 = bac();
+    console.log(test);
 
     return (
         <div className="Shop">
